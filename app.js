@@ -10,7 +10,7 @@ const myNull = null; //null
 console.log(
   `My name is ${myName}, I am ${
     currentYear - yearOfBirth
-  } years old and my hobby is ${myHobby}`
+  } years old and my hobby is ${myHobby}.`
 );
 
 //method 2
@@ -20,5 +20,6 @@ console.log(
     ", I am " +
     (currentYear - yearOfBirth) +
     " years old and my hobby is " +
-    myHobby
+    myHobby +
+    "."
 );
